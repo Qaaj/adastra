@@ -20,3 +20,8 @@ ReactDOM.render(
   <Main />,
   document.getElementById("example")
 );
+
+
+// docker rm $(docker ps -a -q)
+// docker kill $(docker ps -q)
+//  docker run --name adastra-psql -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -p 5432:5432 postgres
