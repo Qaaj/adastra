@@ -1,0 +1,1 @@
+npm run kill & npm run windows

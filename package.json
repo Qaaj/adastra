@@ -4,6 +4,9 @@
   "description": "Ticketing and Reporting",
   "main": "index.js",
   "scripts": {
+    "start" : "DEBUG=adastra node server",
+    "windows" : "set debug=adastra && node server",
+    "kill" : "taskkill /f /im node.exe ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jan Jorissen",
@@ -11,6 +14,7 @@
   "dependencies": {
     "bookshelf": "^0.10.1",
     "checkit": "^0.7.0",
+    "debug": "^2.2.0",
     "express": "^4.14.0",
     "express-graphql": "^0.5.4",
     "graphql": "^0.7.0",

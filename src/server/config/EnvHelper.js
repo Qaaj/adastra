@@ -1,4 +1,3 @@
-const debug = console.log;
 /**
  * General util class to easily fetch env variables from anywhere in the app and enforce defaults and requirements.
  *

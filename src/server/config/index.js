@@ -1,5 +1,4 @@
 'use strict';
-const debug = console.log;
 
 import nconf from 'nconf';
 
