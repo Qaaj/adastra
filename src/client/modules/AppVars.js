@@ -11,7 +11,7 @@ export default function reducer(state = startMap, action) {
   switch (action.type) {
     case TOGGLE_KEY:
       state = state.set(action.data, (state.get(action.data) ? false : true));
-      console.log("Toggling key: ", action.data, state.get(action.data));
+      debug("Toggling key: ", action.data, state.get(action.data));
       return state;
       break;
     default:

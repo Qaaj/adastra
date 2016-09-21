@@ -19,7 +19,7 @@ export default function reducer(state = new Map({}), action){
     case STARTING_REQUEST:
       return state.set("fetching", true);
     case FINISHED_REQUEST:
-        console.log(action);
+        debug(action);
       return state.set("fetching", false)
           .set("data", Map(action.response.data.goldberg));
     default:

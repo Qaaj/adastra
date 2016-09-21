@@ -8,7 +8,7 @@ const store = configureStore();
 
 const Main = React.createClass({
   render: () => {
-    return (node in
+    return (
       <Provider store={store}>
         <Query />
       </Provider>

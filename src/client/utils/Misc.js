@@ -7,7 +7,7 @@ class noSpam{
   go(fx,timeout){
     clearTimeout(this.lastTimeout);
     this.lastTimeout = setTimeout( () => {
-      if(this.id) console.log(this.id + ' FIRING.');
+      if(this.id) debug(this.id + ' FIRING.');
       fx();
     },timeout);
   }

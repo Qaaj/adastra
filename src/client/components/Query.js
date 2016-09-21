@@ -19,8 +19,11 @@ class Query extends React.Component {
   }
 
   render() {
-    console.log(this.props);
-    return <div>Hi</div>
+    return <div>
+        Go to: <a target="_blank" href="http://localhost:8080">GraphiQL</a>.
+      <p>Enter: <code>&#123;user(id: 1) &#123;id, first_name, last_name, email&#125;&#125;</code></p>
+
+    </div>
   }
 }
 
